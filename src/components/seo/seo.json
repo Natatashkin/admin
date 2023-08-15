@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_repeatable_seos",
+  "info": {
+    "displayName": "SEO",
+    "icon": "alien",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "seoTitle": {
+      "type": "string",
+      "required": true
+    },
+    "seoDescription": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
