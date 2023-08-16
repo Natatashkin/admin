@@ -35,6 +35,27 @@
         }
       },
       "component": "seo.seo"
+    },
+    "Hero": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "hero.hero",
+      "required": true
+    },
+    "logo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "logo.logo"
     }
   }
 }
