@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_action_actions",
+  "info": {
+    "displayName": "Action",
+    "icon": "plus",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "actionText": {
+      "type": "string"
+    },
+    "actionLink": {
+      "type": "string"
+    }
+  }
+}

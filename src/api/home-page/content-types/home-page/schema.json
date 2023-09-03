@@ -26,9 +26,9 @@
         }
       }
     },
-    "Seo": {
+    "seo": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -36,9 +36,9 @@
       },
       "component": "seo.seo"
     },
-    "Hero": {
+    "hero": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -56,6 +56,16 @@
         }
       },
       "component": "logo.logo"
+    },
+    "action": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "action.action"
     }
   }
 }
