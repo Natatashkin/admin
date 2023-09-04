@@ -2,30 +2,36 @@
   "collectionName": "components_hero_heroes",
   "info": {
     "displayName": "Hero",
-    "icon": "briefcase"
+    "icon": "briefcase",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
+    "heroTitle": {
       "type": "string",
-      "required": true
+      "required": true,
+      "maxLength": 60
     },
-    "backgroundImage": {
+    "heroBackgroundImage": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true,
-      "required": true
+      ]
     },
-    "description": {
+    "heroDescription": {
       "type": "string",
-      "required": true
+      "required": true,
+      "maxLength": 200
     },
     "heroButtonTitle": {
+      "type": "string"
+    },
+    "heroButtonLink": {
       "type": "string"
     }
   }
