@@ -60,10 +60,11 @@
       "default": "2023-08-16",
       "required": false
     },
-    "nested_menu_item": {
+    "project_category": {
       "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::nested-menu-item.nested-menu-item"
+      "relation": "manyToOne",
+      "target": "api::project-category.project-category",
+      "inversedBy": "projects"
     }
   }
 }
