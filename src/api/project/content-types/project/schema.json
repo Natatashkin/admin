@@ -59,6 +59,11 @@
       "type": "date",
       "default": "2023-08-16",
       "required": false
+    },
+    "nested_menu_item": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::nested-menu-item.nested-menu-item"
     }
   }
 }
