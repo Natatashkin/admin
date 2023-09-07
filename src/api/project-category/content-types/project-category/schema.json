@@ -54,12 +54,6 @@
         }
       },
       "type": "string"
-    },
-    "page": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::page.page",
-      "inversedBy": "project_categories"
     }
   }
 }

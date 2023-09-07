@@ -26,16 +26,6 @@
       },
       "component": "seo.seo"
     },
-    "hero": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "hero.hero"
-    },
     "title": {
       "pluginOptions": {
         "i18n": {
@@ -50,21 +40,21 @@
           "localized": true
         }
       },
-      "type": "string",
-      "required": true,
-      "unique": true
+      "type": "uid",
+      "required": false,
+      "targetField": "title"
     },
-    "project_categories": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::project-category.project-category",
-      "mappedBy": "page"
-    },
-    "project": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::project.project",
-      "inversedBy": "page"
+    "blocks": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "hero.hero"
+      ],
+      "required": true
     }
   }
 }
