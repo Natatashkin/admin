@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_list_lists",
+  "info": {
+    "displayName": "List",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "maxLength": 60
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project"
+    }
+  }
+}
