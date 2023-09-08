@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_lists_news_lists",
+  "info": {
+    "displayName": "NewsList",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "news": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::one-news.one-news"
+    }
+  }
+}

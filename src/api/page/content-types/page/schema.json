@@ -54,7 +54,9 @@
       "components": [
         "hero.hero",
         "features.features",
-        "list.list"
+        "lists.news-list",
+        "lists.progects-list",
+        "mosaic.mosaic"
       ],
       "required": true
     }

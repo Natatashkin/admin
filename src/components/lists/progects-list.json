@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_lists_progects_lists",
+  "info": {
+    "displayName": "ProgectsList",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,21 +1,17 @@
 {
-  "collectionName": "components_list_lists",
+  "collectionName": "components_mosaic_mosaics",
   "info": {
-    "displayName": "List",
-    "icon": "bulletList",
+    "displayName": "MosaicProjects",
+    "icon": "dashboard",
     "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string",
-      "required": true,
-      "unique": true,
-      "maxLength": 60
+      "type": "string"
     },
     "description": {
-      "type": "richtext",
-      "required": true
+      "type": "richtext"
     },
     "projects": {
       "type": "relation",
