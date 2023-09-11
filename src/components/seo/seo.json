@@ -7,11 +7,11 @@
   },
   "options": {},
   "attributes": {
-    "seoTitle": {
+    "title": {
       "type": "string",
       "required": true
     },
-    "seoDescription": {
+    "description": {
       "type": "richtext",
       "required": true
     }

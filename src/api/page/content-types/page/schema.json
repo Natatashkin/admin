@@ -54,10 +54,10 @@
       "type": "dynamiczone",
       "components": [
         "hero.hero",
-        "features.features",
         "lists.news-list",
         "lists.progects-list",
-        "mosaic.mosaic"
+        "mosaic.mosaic",
+        "features.features"
       ],
       "required": true
     },

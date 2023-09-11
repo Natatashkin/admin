@@ -7,10 +7,10 @@
   },
   "options": {},
   "attributes": {
-    "actionText": {
+    "title": {
       "type": "string"
     },
-    "actionLink": {
+    "link": {
       "type": "string"
     }
   }

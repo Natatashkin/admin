@@ -2,19 +2,20 @@
   "collectionName": "components_logo_logos",
   "info": {
     "displayName": "Logo",
-    "icon": "alien"
+    "icon": "alien",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "logoImage": {
-      "allowedTypes": [
-        "images"
-      ],
+    "image": {
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
-    "logoText": {
+    "text": {
       "type": "string"
     }
   }

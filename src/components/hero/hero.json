@@ -7,12 +7,12 @@
   },
   "options": {},
   "attributes": {
-    "heroTitle": {
+    "title": {
       "type": "string",
       "required": true,
       "maxLength": 60
     },
-    "heroBackgroundImage": {
+    "image": {
       "type": "media",
       "multiple": true,
       "required": true,
@@ -23,15 +23,15 @@
         "audios"
       ]
     },
-    "heroDescription": {
+    "description": {
       "type": "string",
       "required": true,
       "maxLength": 200
     },
-    "heroButtonTitle": {
+    "buttonTitle": {
       "type": "string"
     },
-    "heroButtonLink": {
+    "buttonLink": {
       "type": "string"
     }
   }
