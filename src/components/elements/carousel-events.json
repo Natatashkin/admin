@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_elements_carousel_events",
+  "info": {
+    "displayName": "CarouselEvents",
+    "icon": "star"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "news": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::one-news.one-news"
+    }
+  }
+}

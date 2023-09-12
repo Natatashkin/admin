@@ -44,7 +44,7 @@
           "localized": true
         }
       },
-      "component": "hero.hero",
+      "component": "elements.hero",
       "required": true
     },
     "logo": {
@@ -65,7 +65,7 @@
           "localized": true
         }
       },
-      "component": "action.action"
+      "component": "elements.action"
     }
   }
 }

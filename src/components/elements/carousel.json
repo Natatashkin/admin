@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_elements_carousels",
+  "info": {
+    "displayName": "CarouselProjects",
+    "icon": "layer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project"
+    }
+  }
+}
