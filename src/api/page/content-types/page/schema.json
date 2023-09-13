@@ -48,7 +48,8 @@
         "elements.progects-list",
         "elements.mosaic",
         "elements.features",
-        "elements.carousel"
+        "elements.carousel",
+        "elements.relations"
       ],
       "required": true
     },
@@ -59,6 +60,30 @@
         }
       },
       "type": "string"
+    },
+    "description": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

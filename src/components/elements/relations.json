@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_elements_relations",
+  "info": {
+    "displayName": "Relations",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subpages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::subpage.subpage"
+    }
+  }
+}

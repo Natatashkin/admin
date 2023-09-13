@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_elements_partners_lists",
+  "info": {
+    "displayName": "PartnersList",
+    "icon": "manyToMany"
+  },
+  "options": {},
+  "attributes": {
+    "partners": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::partner.partner"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
