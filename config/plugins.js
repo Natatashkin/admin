@@ -1,7 +1,7 @@
 module.exports = ({ env }) => ({
-  'strapi-plugin-populate-deep': {
+  "strapi-plugin-populate-deep": {
     config: {
-      defaultDepth: 4, // Default is 5
-    }
+      defaultDepth: 5, // Default is 5
+    },
   },
 });
