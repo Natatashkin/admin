@@ -13,7 +13,7 @@
     "description": {
       "type": "string"
     },
-    "projects": {
+    "relatedItems": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::project.project"

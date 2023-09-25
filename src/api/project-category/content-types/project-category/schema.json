@@ -25,12 +25,6 @@
         }
       }
     },
-    "projects": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::project.project",
-      "mappedBy": "project_category"
-    },
     "projectCategoryImage": {
       "type": "media",
       "multiple": false,
@@ -54,6 +48,12 @@
         }
       },
       "type": "string"
+    },
+    "projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project",
+      "mappedBy": "category"
     }
   }
 }
