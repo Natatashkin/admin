@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_poject_categories_poject_categories",
+  "info": {
+    "displayName": "Poject Categories",
+    "icon": "filter"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project-category.project-category"
+    }
+  }
+}

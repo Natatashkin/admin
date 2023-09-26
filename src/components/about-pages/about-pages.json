@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_about_pages_about_pages",
+  "info": {
+    "displayName": "About Pages",
+    "icon": "chartBubble",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::subpage.subpage"
+    }
+  }
+}
