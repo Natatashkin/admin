@@ -44,12 +44,8 @@
       "type": "dynamiczone",
       "components": [
         "elements.hero",
-        "elements.news-list",
-        "elements.progects-list",
-        "elements.mosaic",
         "elements.features",
-        "elements.carousel",
-        "elements.relations"
+        "elements.carousel"
       ],
       "required": true
     },

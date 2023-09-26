@@ -1,22 +1,23 @@
 {
   "collectionName": "components_elements_carousels",
   "info": {
-    "displayName": "CarouselProjects",
-    "icon": "layer",
+    "displayName": "Carousel",
+    "icon": "code",
     "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
-      "type": "string"
+      "type": "richtext"
     },
     "relatedItems": {
       "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::project.project"
+      "relation": "oneToOne",
+      "target": "api::list-collection.list-collection"
     }
   }
 }

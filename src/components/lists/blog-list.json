@@ -1,19 +1,13 @@
 {
-  "collectionName": "components_lists_news_lists",
+  "collectionName": "components_lists_blog_lists",
   "info": {
-    "displayName": "NewsList",
+    "displayName": "BlogList",
     "icon": "bulletList",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "richtext"
-    },
-    "news": {
+    "relatedItems": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::one-news.one-news"
