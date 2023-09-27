@@ -2,14 +2,9 @@
   "collectionName": "components_lists_progects_lists",
   "info": {
     "displayName": "ProgectsList",
-    "icon": "bulletList"
+    "icon": "bulletList",
+    "description": ""
   },
   "options": {},
-  "attributes": {
-    "relatedItems": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::project.project"
-    }
-  }
+  "attributes": {}
 }

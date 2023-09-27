@@ -16,7 +16,15 @@
     }
   },
   "attributes": {
-    "items": {
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "list": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -24,20 +32,10 @@
       },
       "type": "dynamiczone",
       "components": [
-        "lists.progects-list",
-        "lists.blog-list"
+        "lists.progects-list"
       ],
       "required": true,
       "max": 1
-    },
-    "title": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "required": true
     }
   }
 }

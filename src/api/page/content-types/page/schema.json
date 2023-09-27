@@ -45,7 +45,8 @@
       "components": [
         "elements.hero",
         "elements.features",
-        "elements.carousel"
+        "elements.carousel-projects",
+        "elements.carousel-blog"
       ],
       "required": true
     },

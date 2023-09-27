@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_elements_carousel_blogs",
+  "info": {
+    "displayName": "Carousel Blog",
+    "icon": "layer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "relatedItems": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::one-news.one-news"
+    }
+  }
+}

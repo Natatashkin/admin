@@ -66,6 +66,21 @@
         }
       },
       "component": "elements.action"
+    },
+    "blocks": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "elements.action",
+        "elements.carousel-blog",
+        "elements.carousel-projects",
+        "elements.features",
+        "elements.hero"
+      ]
     }
   }
 }

@@ -47,14 +47,23 @@
       "target": "api::project.project",
       "mappedBy": "category"
     },
-    "slug": {
+    "rootSlug": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "uid",
-      "targetField": "title"
+      "type": "string",
+      "default": "projects",
+      "required": true
+    },
+    "slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string"
     }
   }
 }

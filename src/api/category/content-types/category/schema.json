@@ -43,8 +43,8 @@
       },
       "type": "dynamiczone",
       "components": [
-        "poject-categories.poject-categories",
-        "about-pages.about-pages"
+        "about-pages.about-pages",
+        "lists.progects-list"
       ],
       "max": 1
     }
