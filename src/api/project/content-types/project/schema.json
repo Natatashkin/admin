@@ -36,7 +36,7 @@
     },
     "image": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "required": false,
       "allowedTypes": [
         "images",
@@ -75,6 +75,15 @@
       "type": "uid",
       "targetField": "title",
       "required": true
+    },
+    "rootSlug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "default": "project"
     }
   }
 }
