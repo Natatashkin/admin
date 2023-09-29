@@ -1,12 +1,9 @@
 {
   "collectionName": "components_text_titles",
   "info": {
-    "displayName": "Title"
+    "displayName": "Title",
+    "description": ""
   },
   "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    }
-  }
+  "attributes": {}
 }

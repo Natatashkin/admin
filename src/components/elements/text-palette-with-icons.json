@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_elements_text_palette_with_icons",
+  "info": {
+    "displayName": "Text Palette With Icons",
+    "icon": "grid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text.text-block-with-icon",
+      "required": true,
+      "max": 6,
+      "min": 2
+    }
+  }
+}

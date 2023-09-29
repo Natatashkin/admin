@@ -13,11 +13,6 @@
     },
     "description": {
       "type": "text"
-    },
-    "features": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::feature.feature"
     }
   }
 }

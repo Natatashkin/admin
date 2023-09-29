@@ -47,7 +47,8 @@
         "elements.features",
         "elements.carousel-projects",
         "elements.carousel-blog",
-        "elements.text-section"
+        "elements.text-section",
+        "elements.text-palette-with-icons"
       ],
       "required": true
     },

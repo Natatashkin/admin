@@ -1,27 +1,29 @@
 {
-  "collectionName": "components_text_images",
+  "collectionName": "components_text_text_block_with_icons",
   "info": {
-    "displayName": "Image",
-    "icon": "landscape",
+    "displayName": "Text Block With Icon",
+    "icon": "lightbulb",
     "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
       "type": "text"
     },
     "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     }
   }
 }
