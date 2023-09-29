@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_text_link_buttons",
+  "info": {
+    "displayName": "Link Button",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

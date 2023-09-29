@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_elements_text_sections",
+  "info": {
+    "displayName": "Text Section",
+    "icon": "medium",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "action": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.action"
+    },
+    "backrground": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
