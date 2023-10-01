@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_elements_text_block_with_image_button_and_circles",
+  "info": {
+    "displayName": "Text Block with Image, Button and Circle",
+    "icon": "layout",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "text.link-button"
+    }
+  }
+}
