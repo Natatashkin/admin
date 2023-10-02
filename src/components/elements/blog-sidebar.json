@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_elements_blog_sidebars",
+  "info": {
+    "displayName": "BlogSidebar",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "news": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::one-news.one-news"
+    }
+  }
+}

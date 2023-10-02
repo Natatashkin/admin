@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_elements_projects_sidebars",
+  "info": {
+    "displayName": "ProjectsSidebar",
+    "icon": "manyWays"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project"
+    }
+  }
+}

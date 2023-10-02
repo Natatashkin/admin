@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_elements_sidebars",
+  "info": {
+    "displayName": "Sidebar",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "item": {
+      "displayName": "Sidebar Element",
+      "type": "component",
+      "repeatable": true,
+      "component": "block.sidebar-element",
+      "required": true,
+      "max": 4,
+      "min": 2
+    }
+  }
+}

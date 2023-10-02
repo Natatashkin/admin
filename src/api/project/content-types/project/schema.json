@@ -89,6 +89,12 @@
       },
       "customField": "plugin::ckeditor.CKEditor",
       "required": true
+    },
+    "parentPage": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::subpage.subpage",
+      "inversedBy": "projects"
     }
   }
 }
